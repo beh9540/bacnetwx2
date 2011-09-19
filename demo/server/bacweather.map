@@ -1,0 +1,1678 @@
+Archive member included because of file (symbol)
+
+//usr/lib/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o (__libc_csu_fini)
+//usr/lib/libc_nonshared.a(atexit.oS)
+                              main.o (atexit)
+../../lib/libbacnet.a(apdu.o)
+                              main.o (apdu_set_confirmed_handler)
+../../lib/libbacnet.a(bacdcode.o)
+                              ../../lib/libbacnet.a(apdu.o) (decode_max_segs)
+../../lib/libbacnet.a(bacint.o)
+                              ../../lib/libbacnet.a(bacdcode.o) (encode_unsigned16)
+../../lib/libbacnet.a(bacreal.o)
+                              ../../lib/libbacnet.a(bacdcode.o) (encode_bacnet_real)
+../../lib/libbacnet.a(bacstr.o)
+                              ../../lib/libbacnet.a(bacdcode.o) (bitstring_init)
+../../lib/libbacnet.a(dcc.o)  ../../lib/libbacnet.a(apdu.o) (dcc_communication_disabled)
+../../lib/libbacnet.a(tsm.o)  ../../lib/libbacnet.a(apdu.o) (tsm_free_invoke_id)
+../../lib/libbacnet.a(bacaddr.o)
+                              ../../lib/libbacnet.a(tsm.o) (bacnet_address_copy)
+../../lib/libbacnet.a(version.o)
+                              main.o (BACnet_Version)
+../../lib/libbacnet.a(xoapweather.o)
+                              weather.o (xoap_weather_free_forecast)
+../../lib/libbacnet.a(bvlc.o)
+                              main.o (bvlc_maintenance_timer)
+../../lib/libbacnet.a(bip.o)  ../../lib/libbacnet.a(bvlc.o) (bip_socket)
+../../lib/libbacnet.a(dlenv.o)
+                              main.o (dlenv_init)
+../../lib/libbacnet.a(txbuf.o)
+                              main.o (Handler_Transmit_Buffer)
+../../lib/libbacnet.a(noserv.o)
+                              main.o (handler_unrecognized_service)
+../../lib/libbacnet.a(h_npdu.o)
+                              main.o (npdu_handler)
+../../lib/libbacnet.a(h_whois.o)
+                              main.o (handler_who_is)
+../../lib/libbacnet.a(h_rp.o)
+                              main.o (handler_read_property_object_set)
+../../lib/libbacnet.a(h_rpm.o)
+                              main.o (handler_read_property_multiple_list_set)
+../../lib/libbacnet.a(h_wp.o)
+                              main.o (handler_write_property_object_set)
+../../lib/libbacnet.a(h_arf.o)
+                              main.o (handler_atomic_read_file)
+../../lib/libbacnet.a(h_awf.o)
+                              main.o (handler_atomic_write_file)
+../../lib/libbacnet.a(h_rd.o)
+                              main.o (handler_reinitialize_device)
+../../lib/libbacnet.a(h_dcc.o)
+                              main.o (handler_device_communication_control)
+../../lib/libbacnet.a(h_ts.o)
+                              main.o (handler_timesync_utc)
+../../lib/libbacnet.a(h_whohas.o)
+                              main.o (handler_who_has)
+../../lib/libbacnet.a(h_cov.o)
+                              main.o (handler_cov_subscribe)
+../../lib/libbacnet.a(h_ucov.o)
+                              main.o (handler_ucov_notification)
+../../lib/libbacnet.a(s_ihave.o)
+                              ../../lib/libbacnet.a(h_whohas.o) (Send_I_Have)
+../../lib/libbacnet.a(s_iam.o)
+                              main.o (Send_I_Am)
+../../lib/libbacnet.a(device.o)
+                              main.o (Device_Object_Function_Set)
+../../lib/libbacnet.a(ai.o)   main.o (Analog_Input_Property_Lists)
+../../lib/libbacnet.a(bi.o)   ../../lib/libbacnet.a(h_cov.o) (Binary_Input_Valid_Instance)
+../../lib/libbacnet.a(lc.o)   main.o (Load_Control_State_Machine_Handler)
+../../lib/libbacnet.a(bacfile.o)
+                              main.o (BACfile_Property_Lists)
+../../lib/libbacnet.a(npdu.o)
+                              ../../lib/libbacnet.a(tsm.o) (npdu_copy_data)
+../../lib/libbacnet.a(bacapp.o)
+                              ../../lib/libbacnet.a(lc.o) (bacapp_decode_context_data)
+../../lib/libbacnet.a(datetime.o)
+                              ../../lib/libbacnet.a(lc.o) (datetime_compare)
+../../lib/libbacnet.a(arf.o)  ../../lib/libbacnet.a(h_arf.o) (arf_ack_encode_apdu)
+../../lib/libbacnet.a(awf.o)  ../../lib/libbacnet.a(h_awf.o) (awf_ack_encode_apdu)
+../../lib/libbacnet.a(cov.o)  ../../lib/libbacnet.a(h_cov.o) (cov_subscribe_decode_service_request)
+../../lib/libbacnet.a(iam.o)  ../../lib/libbacnet.a(s_iam.o) (iam_encode_apdu)
+../../lib/libbacnet.a(ihave.o)
+                              ../../lib/libbacnet.a(s_ihave.o) (ihave_encode_apdu)
+../../lib/libbacnet.a(rd.o)   ../../lib/libbacnet.a(h_rd.o) (rd_decode_service_request)
+../../lib/libbacnet.a(rp.o)   ../../lib/libbacnet.a(h_rp.o) (rp_decode_service_request)
+../../lib/libbacnet.a(rpm.o)  ../../lib/libbacnet.a(h_rpm.o) (rpm_ack_encode_apdu_init)
+../../lib/libbacnet.a(timesync.o)
+                              ../../lib/libbacnet.a(h_ts.o) (timesync_decode_service_request)
+../../lib/libbacnet.a(whohas.o)
+                              ../../lib/libbacnet.a(h_whohas.o) (whohas_decode_service_request)
+../../lib/libbacnet.a(whois.o)
+                              ../../lib/libbacnet.a(h_whois.o) (whois_decode_service_request)
+../../lib/libbacnet.a(wp.o)   ../../lib/libbacnet.a(h_wp.o) (wp_decode_service_request)
+../../lib/libbacnet.a(abort.o)
+                              ../../lib/libbacnet.a(h_rp.o) (abort_encode_apdu)
+../../lib/libbacnet.a(reject.o)
+                              ../../lib/libbacnet.a(noserv.o) (reject_encode_apdu)
+../../lib/libbacnet.a(bacerror.o)
+                              ../../lib/libbacnet.a(h_rp.o) (bacerror_encode_apdu)
+../../lib/libbacnet.a(memcopy.o)
+                              ../../lib/libbacnet.a(h_rpm.o) (memcopy)
+../../lib/libbacnet.a(address.o)
+                              ../../lib/libbacnet.a(device.o) (address_list_encode)
+../../lib/libbacnet.a(bip-init.o)
+                              ../../lib/libbacnet.a(dlenv.o) (bip_getaddrbyname)
+../../lib/libbacnet.a(ao.o)   ../../lib/libbacnet.a(lc.o) (Analog_Output_Present_Value)
+
+Allocating common symbols
+Common symbol       size              file
+
+licenseKey          0x8               ../../lib/libbacnet.a(xoapweather.o)
+curlHandle          0x8               ../../lib/libbacnet.a(xoapweather.o)
+Local_Date          0x6               ../../lib/libbacnet.a(device.o)
+partnerID           0x8               ../../lib/libbacnet.a(xoapweather.o)
+Local_Time          0x4               ../../lib/libbacnet.a(device.o)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+ .text          0x0000000000000000        0x0 weather.o
+ .data          0x0000000000000000        0x0 weather.o
+ .bss           0x0000000000000000        0x0 weather.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 weather.o
+ .text          0x0000000000000000        0x0 parser.o
+ .data          0x0000000000000000        0x0 parser.o
+ .bss           0x0000000000000000        0x0 parser.o
+ .text.parseGetNumberLines
+                0x0000000000000000       0x43 parser.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 parser.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 //usr/lib/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000000000        0x0 //usr/lib/libc_nonshared.a(atexit.oS)
+ .bss           0x0000000000000000        0x0 //usr/lib/libc_nonshared.a(atexit.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 //usr/lib/libc_nonshared.a(atexit.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(apdu.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bacdcode.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(bacdcode.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bacdcode.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bacint.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(bacint.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bacint.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bacreal.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(bacreal.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bacreal.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bacstr.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(bacstr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bacstr.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(dcc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(dcc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(tsm.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bacaddr.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(bacaddr.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bacaddr.o)
+ .text          0x0000000000000000        0x0 ../../lib/libbacnet.a(version.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(version.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(version.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(xoapweather.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(xoapweather.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(xoapweather.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bvlc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bvlc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bip.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(dlenv.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(dlenv.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(dlenv.o)
+ .text          0x0000000000000000        0x0 ../../lib/libbacnet.a(txbuf.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(txbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(txbuf.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(noserv.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(noserv.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(noserv.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_npdu.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(h_npdu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_npdu.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_whois.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(h_whois.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_whois.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_rp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_rp.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_rpm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_rpm.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_wp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_wp.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_arf.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(h_arf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_arf.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_awf.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(h_awf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_awf.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_rd.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_rd.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(h_dcc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_dcc.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_ts.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(h_ts.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_ts.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_whohas.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(h_whohas.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_whohas.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_cov.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_cov.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(h_ucov.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(h_ucov.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(h_ucov.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(s_ihave.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(s_ihave.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(s_ihave.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(s_iam.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(s_iam.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(s_iam.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(device.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(ai.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(ai.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bi.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(lc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(lc.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bacfile.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(bacfile.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bacfile.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(npdu.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(npdu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(npdu.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bacapp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bacapp.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(datetime.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(datetime.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(datetime.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(arf.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(arf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(arf.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(awf.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(awf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(awf.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(cov.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(cov.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(cov.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(iam.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(iam.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(iam.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(ihave.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(ihave.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(ihave.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(rd.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(rd.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(rd.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(rp.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(rp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(rp.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(rpm.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(rpm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(rpm.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(timesync.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(timesync.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(timesync.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(whohas.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(whohas.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(whohas.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(whois.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(whois.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(whois.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(wp.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(wp.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(wp.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(abort.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(abort.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(abort.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(reject.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(reject.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(reject.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bacerror.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(bacerror.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bacerror.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(memcopy.o)
+ .bss           0x0000000000000000        0x0 ../../lib/libbacnet.a(memcopy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(memcopy.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(address.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(address.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(bip-init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(bip-init.o)
+ .data          0x0000000000000000        0x0 ../../lib/libbacnet.a(ao.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../../lib/libbacnet.a(ao.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+LOAD weather.o
+LOAD parser.o
+LOAD main.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc.so
+START GROUP
+LOAD //lib/libc.so.6
+LOAD //usr/lib/libc_nonshared.a
+LOAD //lib/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libm.so
+LOAD ../../lib/libbacnet.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libcurl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libxml2.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libpthread.so
+START GROUP
+LOAD //lib/libpthread.so.0
+LOAD //usr/lib/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/libc.so
+START GROUP
+LOAD //lib/libc.so.6
+LOAD //usr/lib/libc_nonshared.a
+LOAD //lib/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400238                . = (0x400000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000400238       0x1c
+ *(.interp)
+ .interp        0x0000000000400238       0x1c /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.note.ABI-tag   0x0000000000400254       0x20
+ .note.ABI-tag  0x0000000000400254       0x20 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400274       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400298       0x40
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400298       0x40 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.dynsym         0x00000000004002d8      0x660
+ *(.dynsym)
+ .dynsym        0x00000000004002d8      0x660 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.dynstr         0x0000000000400938      0x345
+ *(.dynstr)
+ .dynstr        0x0000000000400938      0x345 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.gnu.version    0x0000000000400c7e       0x88
+ *(.gnu.version)
+ .gnu.version   0x0000000000400c7e       0x88 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.gnu.version_d  0x0000000000400d08        0x0 load address 0x0000000000400d06
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.gnu.version_r  0x0000000000400d08       0xa0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400d08       0xa0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.rela.dyn       0x0000000000400da8       0x48
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.updateWeather
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.freeParseOptions
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.freeParserHandle
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.parseGetNumberLines
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.parseValue
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.parseOptions
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.parseInit
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.Init_Object
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.main
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ .rela.text.cleanup
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000400da8       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000400dc0       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+
+.rela.plt       0x0000000000400df0      0x570
+ *(.rela.plt)
+ .rela.plt      0x0000000000400df0      0x570 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+                0x0000000000401360                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+                0x0000000000401360                PROVIDE (__rela_iplt_end, .)
+
+.init           0x0000000000401360       0x18
+ *(.init)
+ .init          0x0000000000401360        0x9 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o
+                0x0000000000401360                _init
+ .init          0x0000000000401369        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+ .init          0x000000000040136e        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+ .init          0x0000000000401373        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o
+
+.plt            0x0000000000401378      0x3b0
+ *(.plt)
+ .plt           0x0000000000401378      0x3b0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+                0x0000000000401388                xmlGetProp@@LIBXML2_2.4.30
+                0x0000000000401398                ftell@@GLIBC_2.2.5
+                0x00000000004013a8                xmlNodeGetContent@@LIBXML2_2.4.30
+                0x00000000004013b8                xmlStrcmp@@LIBXML2_2.4.30
+                0x00000000004013c8                __strncpy_chk@@GLIBC_2.3.4
+                0x00000000004013d8                close@@GLIBC_2.2.5
+                0x00000000004013e8                ioctl@@GLIBC_2.2.5
+                0x00000000004013f8                __fprintf_chk@@GLIBC_2.3.4
+                0x0000000000401408                gethostbyname@@GLIBC_2.2.5
+                0x0000000000401418                fseek@@GLIBC_2.2.5
+                0x0000000000401428                __isoc99_sscanf@@GLIBC_2.7
+                0x0000000000401438                select@@GLIBC_2.2.5
+                0x0000000000401448                exit@@GLIBC_2.2.5
+                0x0000000000401458                __printf_chk@@GLIBC_2.3.4
+                0x0000000000401468                strncmp@@GLIBC_2.2.5
+                0x0000000000401478                malloc@@GLIBC_2.2.5
+                0x0000000000401488                fopen@@GLIBC_2.2.5
+                0x0000000000401498                __libc_start_main@@GLIBC_2.2.5
+                0x00000000004014a8                xmlFreeDoc@@LIBXML2_2.4.30
+                0x00000000004014b8                __cxa_atexit@@GLIBC_2.2.5
+                0x00000000004014c8                setsockopt@@GLIBC_2.2.5
+                0x00000000004014d8                fgets@@GLIBC_2.2.5
+                0x00000000004014e8                curl_easy_setopt@@CURL_GNUTLS_3
+                0x00000000004014f8                atof@@GLIBC_2.2.5
+                0x0000000000401508                free@@GLIBC_2.2.5
+                0x0000000000401518                rewind@@GLIBC_2.2.5
+                0x0000000000401528                strtol@@GLIBC_2.2.5
+                0x0000000000401538                atoi@@GLIBC_2.2.5
+                0x0000000000401548                curl_global_cleanup@@CURL_GNUTLS_3
+                0x0000000000401558                strchr@@GLIBC_2.2.5
+                0x0000000000401568                socket@@GLIBC_2.2.5
+                0x0000000000401578                fread@@GLIBC_2.2.5
+                0x0000000000401588                inet_ntoa@@GLIBC_2.2.5
+                0x0000000000401598                getenv@@GLIBC_2.2.5
+                0x00000000004015a8                curl_easy_strerror@@CURL_GNUTLS_3
+                0x00000000004015b8                curl_easy_init@@CURL_GNUTLS_3
+                0x00000000004015c8                xmlReadMemory@@LIBXML2_2.6.0
+                0x00000000004015d8                strdup@@GLIBC_2.2.5
+                0x00000000004015e8                curl_easy_cleanup@@CURL_GNUTLS_3
+                0x00000000004015f8                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000401608                strcmp@@GLIBC_2.2.5
+                0x0000000000401618                strcpy@@GLIBC_2.2.5
+                0x0000000000401628                xmlCleanupParser@@LIBXML2_2.4.30
+                0x0000000000401638                calloc@@GLIBC_2.2.5
+                0x0000000000401648                curl_easy_perform@@CURL_GNUTLS_3
+                0x0000000000401658                fclose@@GLIBC_2.2.5
+                0x0000000000401668                recvfrom@@GLIBC_2.2.5
+                0x0000000000401678                strncpy@@GLIBC_2.2.5
+                0x0000000000401688                xmlDocGetRootElement@@LIBXML2_2.4.30
+                0x0000000000401698                __sprintf_chk@@GLIBC_2.3.4
+                0x00000000004016a8                __snprintf_chk@@GLIBC_2.3.4
+                0x00000000004016b8                sendto@@GLIBC_2.2.5
+                0x00000000004016c8                bind@@GLIBC_2.2.5
+                0x00000000004016d8                fwrite@@GLIBC_2.2.5
+                0x00000000004016e8                realloc@@GLIBC_2.2.5
+                0x00000000004016f8                __memmove_chk@@GLIBC_2.3.4
+                0x0000000000401708                localtime@@GLIBC_2.2.5
+                0x0000000000401718                time@@GLIBC_2.2.5
+ *(.iplt)
+ .iplt          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.text           0x0000000000401730     0xfc46
+ *(.text.unlikely .text.*_unlikely)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000401730       0x2c /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+                0x0000000000401730                _start
+ .text          0x000000000040175c       0x17 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o
+ *fill*         0x0000000000401773        0xd 90909090
+ .text          0x0000000000401780       0x92 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+ .text.updateWeather
+                0x0000000000401812      0x2cd weather.o
+                0x0000000000401812                updateWeather
+ .text.freeParseOptions
+                0x0000000000401adf       0x30 parser.o
+                0x0000000000401adf                freeParseOptions
+ .text.freeParserHandle
+                0x0000000000401b0f       0x15 parser.o
+                0x0000000000401b0f                freeParserHandle
+ .text.parseValue
+                0x0000000000401b24      0x18a parser.o
+                0x0000000000401b24                parseValue
+ .text.parseOptions
+                0x0000000000401cae       0x97 parser.o
+                0x0000000000401cae                parseOptions
+ .text.parseInit
+                0x0000000000401d45       0x37 parser.o
+                0x0000000000401d45                parseInit
+ .text.Init_Object
+                0x0000000000401d7c       0x64 main.o
+ .text.main     0x0000000000401de0      0x328 main.o
+                0x0000000000401de0                main
+ .text.cleanup  0x0000000000402108        0x5 main.o
+ *fill*         0x000000000040210d        0x3 90909090
+ .text          0x0000000000402110       0x99 //usr/lib/libc_nonshared.a(elf-init.oS)
+                0x0000000000402110                __libc_csu_fini
+                0x0000000000402120                __libc_csu_init
+ *fill*         0x00000000004021a9        0x7 90909090
+ .text          0x00000000004021b0       0x1a //usr/lib/libc_nonshared.a(atexit.oS)
+                0x00000000004021b0                atexit
+ *fill*         0x00000000004021ca        0x2 90909090
+ .text          0x00000000004021cc      0x54c ../../lib/libbacnet.a(apdu.o)
+                0x00000000004021cc                apdu_set_confirmed_handler
+                0x00000000004021dc                apdu_set_unrecognized_service_handler_handler
+                0x00000000004021e4                apdu_set_unconfirmed_handler
+                0x00000000004021f4                apdu_service_supported
+                0x0000000000402244                apdu_set_confirmed_simple_ack_handler
+                0x0000000000402266                apdu_set_confirmed_ack_handler
+                0x0000000000402288                apdu_set_error_handler
+                0x0000000000402298                apdu_set_abort_handler
+                0x00000000004022a0                apdu_set_reject_handler
+                0x00000000004022a8                apdu_timeout
+                0x00000000004022b0                apdu_timeout_set
+                0x00000000004022b8                apdu_retries
+                0x00000000004022bf                apdu_retries_set
+                0x00000000004022c7                apdu_decode_confirmed_service_request
+                0x0000000000402373                apdu_handler
+ .text          0x0000000000402718     0x1479 ../../lib/libbacnet.a(bacdcode.o)
+                0x0000000000402718                encode_max_segs_max_apdu
+                0x0000000000402790                decode_max_segs
+                0x00000000004027d3                decode_max_apdu
+                0x00000000004027e8                encode_opening_tag
+                0x0000000000402813                encode_closing_tag
+                0x000000000040283e                decode_tag_number
+                0x0000000000402870                decode_tag_number_safe
+                0x00000000004028ad                decode_is_opening_tag
+                0x00000000004028ba                decode_is_closing_tag
+                0x00000000004028c7                decode_is_context_tag
+                0x00000000004028f2                decode_is_context_tag_with_length
+                0x0000000000402923                decode_is_opening_tag_number
+                0x0000000000402955                decode_is_closing_tag_number
+                0x0000000000402987                decode_context_boolean
+                0x000000000040298e                decode_context_boolean2
+                0x00000000004029ce                decode_boolean
+                0x0000000000402a2d                encode_bacnet_time
+                0x0000000000402a49                decode_bacnet_time
+                0x0000000000402a65                decode_bacnet_time_safe
+                0x0000000000402a98                decode_application_time
+                0x0000000000402ad9                decode_context_bacnet_time
+                0x0000000000402b2c                encode_bacnet_date
+                0x0000000000402b5f                decode_date
+                0x0000000000402b81                decode_date_safe
+                0x0000000000402bbc                decode_application_date
+                0x0000000000402c04                decode_context_date
+                0x0000000000402c5e                encode_simple_ack
+                0x0000000000402c6e                encode_bacnet_signed
+                0x0000000000402cb0                decode_signed
+                0x0000000000402cfb                encode_bacnet_unsigned
+                0x0000000000402d2e                encode_bacnet_enumerated
+                0x0000000000402d33                encode_bacnet_object_id
+                0x0000000000402d45                encode_tag
+                0x0000000000402dcf                encode_context_date
+                0x0000000000402e2e                encode_application_date
+                0x0000000000402e77                encode_context_time
+                0x0000000000402eba                encode_application_time
+                0x0000000000402eef                encode_context_double
+                0x0000000000402f2c                encode_application_double
+                0x0000000000402f57                encode_context_real
+                0x0000000000402f94                encode_application_real
+                0x0000000000402fbe                encode_context_signed
+                0x0000000000403023                encode_application_signed
+                0x000000000040304e                encode_context_enumerated
+                0x00000000004030a4                encode_application_enumerated
+                0x00000000004030d0                encode_application_unsigned
+                0x00000000004030fb                encode_context_unsigned
+                0x0000000000403151                encode_application_object_id
+                0x000000000040317c                encode_context_object_id
+                0x00000000004031c1                encode_context_null
+                0x00000000004031d1                encode_application_null
+                0x00000000004031dc                encode_context_boolean
+                0x0000000000403207                encode_application_boolean
+                0x0000000000403217                decode_unsigned
+                0x0000000000403284                decode_enumerated
+                0x00000000004032ad                decode_object_id
+                0x00000000004032e7                decode_context_object_id
+                0x000000000040333b                decode_object_id_safe
+                0x0000000000403350                decode_tag_number_and_value_safe
+                0x000000000040341d                decode_tag_number_and_value
+                0x00000000004034e7                decode_context_signed
+                0x0000000000403558                decode_context_enumerated
+                0x00000000004035c3                decode_context_unsigned
+                0x0000000000403634                decode_context_character_string
+                0x00000000004036bc                decode_character_string
+                0x00000000004036df                encode_bacnet_character_string
+                0x0000000000403728                encode_context_character_string
+                0x0000000000403788                encode_application_character_string
+                0x00000000004037e3                decode_context_octet_string
+                0x0000000000403865                decode_octet_string
+                0x0000000000403883                encode_octet_string
+                0x00000000004038c4                encode_context_octet_string
+                0x0000000000403934                encode_application_octet_string
+                0x000000000040399a                encode_bitstring
+                0x0000000000403a1d                encode_context_bitstring
+                0x0000000000403a63                encode_application_bitstring
+                0x0000000000403aa4                decode_bitstring
+                0x0000000000403b20                decode_context_bitstring
+ *fill*         0x0000000000403b91        0x3 90909090
+ .text          0x0000000000403b94      0x1c0 ../../lib/libbacnet.a(bacint.o)
+                0x0000000000403b94                encode_unsigned16
+                0x0000000000403ba6                decode_unsigned16
+                0x0000000000403bc3                encode_unsigned24
+                0x0000000000403bdd                decode_unsigned24
+                0x0000000000403c03                encode_unsigned32
+                0x0000000000403c25                decode_unsigned32
+                0x0000000000403c56                encode_signed8
+                0x0000000000403c5f                decode_signed8
+                0x0000000000403c79                encode_signed16
+                0x0000000000403c8a                decode_signed16
+                0x0000000000403cb2                encode_signed24
+                0x0000000000403ccc                decode_signed24
+                0x0000000000403d01                encode_signed32
+                0x0000000000403d23                decode_signed32
+ .text          0x0000000000403d54      0x244 ../../lib/libbacnet.a(bacreal.o)
+                0x0000000000403d54                decode_real
+                0x0000000000403d7a                decode_real_safe
+                0x0000000000403dae                encode_bacnet_real
+                0x0000000000403dd6                decode_double
+                0x0000000000403e71                decode_double_safe
+                0x0000000000403e88                encode_bacnet_double
+                0x0000000000403edd                decode_context_double
+                0x0000000000403f32                decode_context_real
+ .text          0x0000000000403f98      0x491 ../../lib/libbacnet.a(bacstr.o)
+                0x0000000000403f98                bitstring_init
+                0x0000000000403fac                bitstring_set_bit
+                0x0000000000403fe8                bitstring_bit
+                0x0000000000404014                bitstring_bits_used
+                0x0000000000404017                bitstring_bytes_used
+                0x0000000000404028                bitstring_octet
+                0x000000000040403f                bitstring_set_octet
+                0x0000000000404058                bitstring_set_bits_used
+                0x000000000040406b                bitstring_bits_capacity
+                0x0000000000404077                bitstring_copy
+                0x00000000004040a0                bitstring_same
+                0x0000000000404102                characterstring_init
+                0x0000000000404164                characterstring_copy
+                0x0000000000404183                characterstring_ansi_copy
+                0x00000000004041b1                characterstring_same
+                0x0000000000404208                characterstring_append
+                0x000000000040423d                characterstring_truncate
+                0x0000000000404254                characterstring_value
+                0x0000000000404262                characterstring_length
+                0x000000000040426d                characterstring_capacity
+                0x000000000040427d                characterstring_encoding
+                0x0000000000404288                octetstring_init
+                0x00000000004042d9                octetstring_copy
+                0x00000000004042ee                octetstring_append
+                0x0000000000404323                octetstring_truncate
+                0x000000000040433a                octetstring_value
+                0x0000000000404348                octetstring_length
+                0x0000000000404353                octetstring_capacity
+                0x0000000000404363                octetstring_value_same
+                0x000000000040439a                characterstring_ansi_same
+                0x0000000000404401                characterstring_init_ansi
+ *fill*         0x0000000000404429        0x3 90909090
+ .text          0x000000000040442c      0x289 ../../lib/libbacnet.a(dcc.o)
+                0x000000000040442c                dcc_enable_status
+                0x0000000000404433                dcc_communication_enabled
+                0x000000000040443e                dcc_communication_disabled
+                0x0000000000404449                dcc_communication_initiation_disabled
+                0x0000000000404454                dcc_duration_seconds
+                0x000000000040445b                dcc_timer_seconds
+                0x0000000000404491                dcc_set_status_duration
+                0x00000000004044be                dcc_decode_service_request
+                0x0000000000404618                dcc_encode_apdu
+ *fill*         0x00000000004046b5        0x3 90909090
+ .text          0x00000000004046b8      0x3c0 ../../lib/libbacnet.a(tsm.o)
+                0x00000000004046b8                tsm_transaction_available
+                0x00000000004046d7                tsm_transaction_idle_count
+                0x00000000004046fe                tsm_free_invoke_id
+                0x000000000040473c                tsm_invoke_id_free
+                0x0000000000404761                tsm_invoke_id_failed
+                0x000000000040479d                tsm_next_free_invokeID
+                0x0000000000404864                tsm_timer_milliseconds
+                0x00000000004048f1                tsm_get_transaction_pdu
+                0x0000000000404984                tsm_set_confirmed_unsegmented_transaction
+ .text          0x0000000000404a78       0xcc ../../lib/libbacnet.a(bacaddr.o)
+                0x0000000000404a78                bacnet_address_copy
+                0x0000000000404ac9                bacnet_address_same
+ .text          0x0000000000404b44     0x1c0d ../../lib/libbacnet.a(xoapweather.o)
+                0x0000000000404b96                xoap_weather_free_forecast
+                0x0000000000404df4                xoap_weather_free_locs
+                0x0000000000404e51                xoap_weather_cleanup
+                0x0000000000405f94                xoap_weather_fetch
+                0x0000000000406323                xoap_weather_search
+                0x0000000000406631                xoap_weather_setopt
+                0x00000000004066e9                xoap_weather_init
+ *fill*         0x0000000000406751        0x3 90909090
+ .text          0x0000000000406754     0x1186 ../../lib/libbacnet.a(bvlc.o)
+                0x0000000000406754                bvlc_maintenance_timer
+                0x00000000004067a5                bvlc_encode_original_broadcast_npdu
+                0x00000000004067fa                bvlc_encode_original_unicast_npdu
+                0x000000000040684f                bvlc_encode_read_fdt
+                0x0000000000406876                bvlc_encode_read_bdt
+                0x000000000040689d                bvlc_encode_write_bdt_init
+                0x0000000000406911                bvlc_bacnet_to_internet_address
+                0x0000000000406a65                bvlc_encode_delete_fdt_entry
+                0x0000000000406b44                bvlc_send_pdu
+                0x0000000000406d03                bvlc_register_with_bbmd
+                0x0000000000407006                bvlc_receive
+ *fill*         0x00000000004078da        0x2 90909090
+ .text          0x00000000004078dc      0x52d ../../lib/libbacnet.a(bip.o)
+                0x00000000004078dc                bip_set_socket
+                0x00000000004078e3                bip_socket
+                0x00000000004078ea                bip_valid
+                0x00000000004078f5                bip_get_addr
+                0x00000000004078fc                bip_get_broadcast_addr
+                0x0000000000407903                bip_set_port
+                0x000000000040790b                bip_get_port
+                0x0000000000407913                bip_set_broadcast_addr
+                0x000000000040791c                bip_set_addr
+                0x0000000000407925                bip_get_broadcast_address
+                0x0000000000407974                bip_get_my_address
+                0x00000000004079be                bip_receive
+                0x0000000000407c90                bip_cleanup
+                0x0000000000407cb0                bip_send_pdu
+ *fill*         0x0000000000407e09        0x3 90909090
+ .text          0x0000000000407e0c      0x148 ../../lib/libbacnet.a(dlenv.o)
+                0x0000000000407e0c                dlenv_init
+ .text          0x0000000000407f54       0x78 ../../lib/libbacnet.a(noserv.o)
+                0x0000000000407f54                handler_unrecognized_service
+ .text          0x0000000000407fcc       0x82 ../../lib/libbacnet.a(h_npdu.o)
+                0x0000000000407fcc                npdu_handler
+ *fill*         0x000000000040804e        0x2 90909090
+ .text          0x0000000000408050       0x67 ../../lib/libbacnet.a(h_whois.o)
+                0x0000000000408050                handler_who_is
+ *fill*         0x00000000004080b7        0x1 90909090
+ .text          0x00000000004080b8      0x217 ../../lib/libbacnet.a(h_rp.o)
+                0x00000000004080b8                handler_read_property_object_set
+                0x00000000004080d3                Encode_Property_APDU
+                0x0000000000408177                handler_read_property
+ *fill*         0x00000000004082cf        0x1 90909090
+ .text          0x00000000004082d0      0x644 ../../lib/libbacnet.a(h_rpm.o)
+                0x00000000004082d0                handler_read_property_multiple_list_set
+                0x00000000004082e3                RPM_Encode_Property
+                0x00000000004083f3                handler_read_property_multiple
+ .text          0x0000000000408914      0x18d ../../lib/libbacnet.a(h_wp.o)
+                0x0000000000408914                handler_write_property_object_set
+                0x0000000000408927                handler_write_property
+ *fill*         0x0000000000408aa1        0x3 90909090
+ .text          0x0000000000408aa4      0x199 ../../lib/libbacnet.a(h_arf.o)
+                0x0000000000408aa4                handler_atomic_read_file
+ *fill*         0x0000000000408c3d        0x3 90909090
+ .text          0x0000000000408c40      0x175 ../../lib/libbacnet.a(h_awf.o)
+                0x0000000000408c40                handler_atomic_write_file
+ *fill*         0x0000000000408db5        0x3 90909090
+ .text          0x0000000000408db8      0x181 ../../lib/libbacnet.a(h_rd.o)
+                0x0000000000408db8                handler_reinitialize_device
+ *fill*         0x0000000000408f39        0x3 90909090
+ .text          0x0000000000408f3c      0x1c2 ../../lib/libbacnet.a(h_dcc.o)
+                0x0000000000408f3c                handler_dcc_password_set
+                0x0000000000408f77                handler_device_communication_control
+ *fill*         0x00000000004090fe        0x2 90909090
+ .text          0x0000000000409100       0x32 ../../lib/libbacnet.a(h_ts.o)
+                0x0000000000409100                handler_timesync_utc
+                0x0000000000409119                handler_timesync
+ *fill*         0x0000000000409132        0x2 90909090
+ .text          0x0000000000409134      0x105 ../../lib/libbacnet.a(h_whohas.o)
+                0x0000000000409134                handler_who_has
+ *fill*         0x0000000000409239        0x3 90909090
+ .text          0x000000000040923c      0x62a ../../lib/libbacnet.a(h_cov.o)
+                0x000000000040923c                handler_cov_init
+                0x000000000040928e                handler_cov_subscribe
+                0x00000000004095fe                handler_cov_task
+                0x000000000040980b                handler_cov_encode_subscriptions
+ *fill*         0x0000000000409866        0x2 90909090
+ .text          0x0000000000409868       0x5b ../../lib/libbacnet.a(h_ucov.o)
+                0x0000000000409868                handler_ucov_notification
+ *fill*         0x00000000004098c3        0x1 90909090
+ .text          0x00000000004098c4       0xef ../../lib/libbacnet.a(s_ihave.o)
+                0x00000000004098c4                Send_I_Have
+ *fill*         0x00000000004099b3        0x1 90909090
+ .text          0x00000000004099b4       0x98 ../../lib/libbacnet.a(s_iam.o)
+                0x00000000004099b4                iam_encode_pdu
+                0x0000000000409a18                Send_I_Am
+ .text          0x0000000000409a4c      0x983 ../../lib/libbacnet.a(device.o)
+                0x0000000000409a4c                Device_Object_Function_Set
+                0x0000000000409a6f                Device_Property_Lists
+                0x0000000000409a94                Device_Object_Instance_Number
+                0x0000000000409a9b                Device_Set_Object_Instance_Number
+                0x0000000000409aae                Device_Valid_Object_Instance_Number
+                0x0000000000409ac6                Device_Object_Name
+                0x0000000000409acc                Device_System_Status
+                0x0000000000409ad3                Device_Set_System_Status
+                0x0000000000409ada                Device_Vendor_Name
+                0x0000000000409ae2                Device_Vendor_Identifier
+                0x0000000000409aea                Device_Set_Vendor_Identifier
+                0x0000000000409af2                Device_Model_Name
+                0x0000000000409af8                Device_Firmware_Revision
+                0x0000000000409b00                Device_Application_Software_Version
+                0x0000000000409b06                Device_Description
+                0x0000000000409b0c                Device_Location
+                0x0000000000409b12                Device_Protocol_Version
+                0x0000000000409b15                Device_Protocol_Revision
+                0x0000000000409b18                Device_Segmentation_Supported
+                0x0000000000409b1e                Device_Database_Revision
+                0x0000000000409b25                Device_Set_Database_Revision
+                0x0000000000409b2d                Device_Object_List_Count
+                0x0000000000409b5d                Device_Object_List_Identifier
+                0x0000000000409be1                Device_Valid_Object_Id
+                0x0000000000409c12                Device_Init
+                0x0000000000409c13                Device_Encode_Property_APDU
+                0x000000000040a08a                Device_Valid_Object_Name
+                0x000000000040a127                Device_Set_Location
+                0x000000000040a153                Device_Set_Description
+                0x000000000040a17f                Device_Set_Application_Software_Version
+                0x000000000040a1ab                Device_Set_Model_Name
+                0x000000000040a1d7                Device_Set_Object_Name
+                0x000000000040a203                Device_Write_Property
+ *fill*         0x000000000040a3cf        0x1 90909090
+ .text          0x000000000040a3d0      0x577 ../../lib/libbacnet.a(ai.o)
+                0x000000000040a3d0                Analog_Input_Property_Lists
+                0x000000000040a3f5                Analog_Input_Valid_Instance
+                0x000000000040a3fc                Analog_Input_Count
+                0x000000000040a402                Analog_Input_Index_To_Instance
+                0x000000000040a405                Analog_Input_Present_Value
+                0x000000000040a41a                Analog_Input_Present_Value_Set
+                0x000000000040a42b                Analog_Input_Init
+                0x000000000040a42c                Analog_Input_Name
+                0x000000000040a79d                Analog_Input_Encode_Property_APDU
+ *fill*         0x000000000040a947        0x1 90909090
+ .text          0x000000000040a948      0x492 ../../lib/libbacnet.a(bi.o)
+                0x000000000040a948                Binary_Input_Property_Lists
+                0x000000000040a96d                Binary_Input_Valid_Instance
+                0x000000000040a974                Binary_Input_Count
+                0x000000000040a97a                Binary_Input_Index_To_Instance
+                0x000000000040a97d                Binary_Input_Init
+                0x000000000040a9c0                Binary_Input_Instance_To_Index
+                0x000000000040a9cc                Binary_Input_Change_Of_Value
+                0x000000000040a9dd                Binary_Input_Change_Of_Value_Clear
+                0x000000000040a9ec                Binary_Input_Write_Property
+                0x000000000040ab25                Binary_Input_Encode_Value_List
+                0x000000000040abf2                Binary_Input_Name
+                0x000000000040ac20                Binary_Input_Encode_Property_APDU
+ *fill*         0x000000000040adda        0x2 90909090
+ .text          0x000000000040addc      0xecc ../../lib/libbacnet.a(lc.o)
+                0x000000000040addc                Load_Control_Property_Lists
+                0x000000000040ae79                Load_Control_Init
+                0x000000000040af92                Load_Control_Instance_To_Index
+                0x000000000040afa7                Load_Control_Index_To_Instance
+                0x000000000040afb3                Load_Control_Count
+                0x000000000040afc3                Load_Control_Valid_Instance
+                0x000000000040afd3                Load_Control_Write_Property
+                0x000000000040b293                Load_Control_State_Machine
+                0x000000000040b738                Load_Control_State_Machine_Handler
+                0x000000000040b818                Load_Control_Name
+                0x000000000040b846                Load_Control_Encode_Property_APDU
+ .text          0x000000000040bca8      0x67c ../../lib/libbacnet.a(bacfile.o)
+                0x000000000040bca8                BACfile_Property_Lists
+                0x000000000040bccd                bacfile_name
+                0x000000000040bce8                bacfile_valid_instance
+                0x000000000040bd09                bacfile_count
+                0x000000000040bd21                bacfile_index_to_instance
+                0x000000000040bd4d                bacfile_init
+                0x000000000040bd4e                bacfile_write_stream_data
+                0x000000000040bdde                bacfile_read_data
+                0x000000000040bea2                bacfile_instance_from_tsm
+                0x000000000040bfc1                bacfile_instance
+                0x000000000040c004                bacfile_write_property
+                0x000000000040c0cf                bacfile_encode_property_apdu
+ .text          0x000000000040c324      0x3d8 ../../lib/libbacnet.a(npdu.o)
+                0x000000000040c324                npdu_copy_data
+                0x000000000040c358                npdu_encode_npdu_data
+                0x000000000040c37d                npdu_decode
+                0x000000000040c57c                npdu_encode_pdu
+ .text          0x000000000040c6fc      0x77b ../../lib/libbacnet.a(bacapp.o)
+                0x000000000040c6fc                bacapp_context_tag_type
+                0x000000000040c771                bacapp_copy
+                0x000000000040c839                bacapp_encode_context_data_value
+                0x000000000040c90d                bacapp_encode_context_data
+                0x000000000040c95b                bacapp_decode_data
+                0x000000000040ca62                bacapp_decode_context_data
+                0x000000000040cafe                bacapp_decode_application_data_safe
+                0x000000000040cbdd                bacapp_decode_application_data
+                0x000000000040cc59                bacapp_data_len
+                0x000000000040cdae                bacapp_encode_application_data
+                0x000000000040ce52                bacapp_encode_data
+ *fill*         0x000000000040ce77        0x1 90909090
+ .text          0x000000000040ce78      0x5e4 ../../lib/libbacnet.a(datetime.o)
+                0x000000000040cfa7                datetime_compare_date
+                0x000000000040cfd5                datetime_compare_time
+                0x000000000040d00f                datetime_compare
+                0x000000000040d049                datetime_copy_date
+                0x000000000040d06c                datetime_copy_time
+                0x000000000040d08d                datetime_copy
+                0x000000000040d0d4                datetime_set_date
+                0x000000000040d0fd                datetime_set_time
+                0x000000000040d110                datetime_set
+                0x000000000040d14f                datetime_set_values
+                0x000000000040d1af                datetime_add_minutes
+                0x000000000040d2e6                datetime_wildcard
+                0x000000000040d312                datetime_date_wildcard_set
+                0x000000000040d329                datetime_time_wildcard_set
+                0x000000000040d33e                datetime_wildcard_set
+                0x000000000040d365                bacapp_decode_datetime
+                0x000000000040d39c                bacapp_decode_context_datetime
+                0x000000000040d3ec                bacapp_encode_context_datetime
+ .text          0x000000000040d45c      0x60a ../../lib/libbacnet.a(arf.o)
+                0x000000000040d45c                arf_ack_decode_service_request
+                0x000000000040d651                arf_ack_decode_apdu
+                0x000000000040d680                arf_ack_encode_apdu
+                0x000000000040d76d                arf_decode_service_request
+                0x000000000040d943                arf_decode_apdu
+                0x000000000040d972                arf_encode_apdu
+ *fill*         0x000000000040da66        0x2 90909090
+ .text          0x000000000040da68      0x451 ../../lib/libbacnet.a(awf.o)
+                0x000000000040da68                awf_ack_decode_service_request
+                0x000000000040dadd                awf_ack_encode_apdu
+                0x000000000040db21                awf_decode_service_request
+                0x000000000040dd53                awf_ack_decode_apdu
+                0x000000000040dd82                awf_decode_apdu
+                0x000000000040ddb1                awf_encode_apdu
+ *fill*         0x000000000040deb9        0x3 90909090
+ .text          0x000000000040debc      0xb33 ../../lib/libbacnet.a(cov.o)
+                0x000000000040debc                cov_subscribe_decode_service_request
+                0x000000000040e059                cov_subscribe_property_decode_service_request
+                0x000000000040e335                cov_subscribe_encode_adpu
+                0x000000000040e3d6                cov_subscribe_property_encode_adpu
+                0x000000000040e4f3                cov_notify_decode_service_request
+                0x000000000040e987                ucov_notify_encode_apdu
+                0x000000000040e9ae                ccov_notify_encode_apdu
+ *fill*         0x000000000040e9ef        0x1 90909090
+ .text          0x000000000040e9f0      0x1fd ../../lib/libbacnet.a(iam.o)
+                0x000000000040e9f0                iam_decode_service_request
+                0x000000000040eb6c                iam_encode_apdu
+ *fill*         0x000000000040ebed        0x3 90909090
+ .text          0x000000000040ebf0      0x184 ../../lib/libbacnet.a(ihave.o)
+                0x000000000040ebf0                ihave_decode_service_request
+                0x000000000040ecf3                ihave_decode_apdu
+                0x000000000040ed13                ihave_encode_apdu
+ .text          0x000000000040ed74      0x151 ../../lib/libbacnet.a(rd.o)
+                0x000000000040ed74                rd_decode_service_request
+                0x000000000040ee50                rd_encode_apdu
+ *fill*         0x000000000040eec5        0x3 90909090
+ .text          0x000000000040eec8      0x42a ../../lib/libbacnet.a(rp.o)
+                0x000000000040eec8                rp_decode_service_request
+                0x000000000040efd9                rp_ack_decode_service_request
+                0x000000000040f10f                rp_ack_encode_apdu_init
+                0x000000000040f18b                rp_ack_encode_apdu
+                0x000000000040f258                rp_ack_encode_apdu_object_property_end
+                0x000000000040f26a                rp_encode_apdu
+ *fill*         0x000000000040f2f2        0x2 90909090
+ .text          0x000000000040f2f4      0x728 ../../lib/libbacnet.a(rpm.o)
+                0x000000000040f2f4                rpm_ack_encode_apdu_init
+                0x000000000040f309                rpm_ack_decode_object_property
+                0x000000000040f425                rpm_decode_object_property
+                0x000000000040f541                rpm_ack_decode_object_end
+                0x000000000040f561                rpm_decode_object_end
+                0x000000000040f581                rpm_ack_decode_object_id
+                0x000000000040f5ff                rpm_decode_object_id
+                0x000000000040f67d                rpm_ack_encode_apdu_object_end
+                0x000000000040f68f                rpm_encode_apdu_object_end
+                0x000000000040f6a1                rpm_ack_encode_apdu_object_property_value
+                0x000000000040f6fa                rpm_ack_encode_apdu_object_property_error
+                0x000000000040f761                rpm_ack_encode_apdu_object_property
+                0x000000000040f7a4                rpm_encode_apdu_object_property
+                0x000000000040f7e4                rpm_ack_encode_apdu_object_begin
+                0x000000000040f819                rpm_encode_apdu_object_begin
+                0x000000000040f84e                rpm_encode_apdu_init
+                0x000000000040f884                rpm_encode_apdu
+ .text          0x000000000040fa1c      0x113 ../../lib/libbacnet.a(timesync.o)
+                0x000000000040fa1c                timesync_decode_service_request
+                0x000000000040fac4                timesync_encode_apdu_service
+                0x000000000040fb0f                timesync_encode_apdu
+                0x000000000040fb1f                timesync_utc_encode_apdu
+ *fill*         0x000000000040fb2f        0x1 90909090
+ .text          0x000000000040fb30      0x239 ../../lib/libbacnet.a(whohas.o)
+                0x000000000040fb30                whohas_decode_service_request
+                0x000000000040fcce                whohas_encode_apdu
+ *fill*         0x000000000040fd69        0x3 90909090
+ .text          0x000000000040fd6c      0x133 ../../lib/libbacnet.a(whois.o)
+                0x000000000040fd6c                whois_decode_service_request
+                0x000000000040fe40                whois_encode_apdu
+ *fill*         0x000000000040fe9f        0x1 90909090
+ .text          0x000000000040fea0      0x2f2 ../../lib/libbacnet.a(wp.o)
+                0x000000000040fea0                wp_decode_service_request
+                0x0000000000410093                wp_encode_apdu
+ *fill*         0x0000000000410192        0x2 90909090
+ .text          0x0000000000410194       0x38 ../../lib/libbacnet.a(abort.o)
+                0x0000000000410194                abort_encode_apdu
+                0x00000000004101b2                abort_decode_service_request
+ .text          0x00000000004101cc       0x2e ../../lib/libbacnet.a(reject.o)
+                0x00000000004101cc                reject_encode_apdu
+                0x00000000004101e0                reject_decode_service_request
+ *fill*         0x00000000004101fa        0x2 90909090
+ .text          0x00000000004101fc      0x13c ../../lib/libbacnet.a(bacerror.o)
+                0x00000000004101fc                bacerror_decode_error_class_and_code
+                0x00000000004102be                bacerror_decode_service_request
+                0x00000000004102ec                bacerror_encode_apdu
+ .text          0x0000000000410338       0x28 ../../lib/libbacnet.a(memcopy.o)
+                0x0000000000410338                memcopy
+ .text          0x0000000000410360      0x76b ../../lib/libbacnet.a(address.o)
+                0x0000000000410360                address_match
+                0x00000000004103e4                address_remove_device
+                0x0000000000410404                address_remove_oldest
+                0x0000000000410488                address_set_device_TTL
+                0x00000000004104cb                address_get_by_device
+                0x000000000041050f                address_add
+                0x00000000004105cb                address_bind_request
+                0x0000000000410657                address_add_binding
+                0x00000000004106a1                address_get_by_index
+                0x00000000004106ea                address_count
+                0x000000000041070f                address_cache_timer
+                0x0000000000410742                address_list_encode
+                0x000000000041080d                address_get_device_id
+                0x000000000041085b                address_file_init
+                0x0000000000410a70                address_init_partial
+                0x0000000000410aab                address_init
+ *fill*         0x0000000000410acb        0x1 90909090
+ .text          0x0000000000410acc      0x2b5 ../../lib/libbacnet.a(bip-init.o)
+                0x0000000000410acc                bip_getaddrbyname
+                0x0000000000410c65                bip_init
+ *fill*         0x0000000000410d81        0x3 90909090
+ .text          0x0000000000410d84      0x5ba ../../lib/libbacnet.a(ao.o)
+                0x0000000000410d84                Analog_Output_Property_Lists
+                0x0000000000410da9                Analog_Output_Init
+                0x0000000000410de8                Analog_Output_Valid_Instance
+                0x0000000000410def                Analog_Output_Count
+                0x0000000000410df5                Analog_Output_Index_To_Instance
+                0x0000000000410df8                Analog_Output_Instance_To_Index
+                0x0000000000410e04                Analog_Output_Present_Value
+                0x0000000000410e38                Analog_Output_Present_Value_Priority
+                0x0000000000410e61                Analog_Output_Present_Value_Set
+                0x0000000000410ea4                Analog_Output_Present_Value_Relinquish
+                0x0000000000410ed0                Analog_Output_Write_Property
+                0x0000000000411051                Analog_Output_Name
+                0x000000000041107f                Analog_Output_Encode_Property_APDU
+ *fill*         0x000000000041133e        0x2 90909090
+ .text          0x0000000000411340       0x36 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+ *(.gnu.warning)
+
+.fini           0x0000000000411378        0xe
+ *(.fini)
+ .fini          0x0000000000411378        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crti.o
+                0x0000000000411378                _fini
+ .fini          0x000000000041137c        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+ .fini          0x0000000000411381        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crtn.o
+                0x0000000000411386                PROVIDE (__etext, .)
+                0x0000000000411386                PROVIDE (_etext, .)
+                0x0000000000411386                PROVIDE (etext, .)
+
+.rodata         0x0000000000411390     0x1200
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000411390       0x4f weather.o
+ *fill*         0x00000000004113df        0x1 00
+ .rodata.updateWeather
+                0x00000000004113e0       0x28 weather.o
+ .rodata.str1.1
+                0x0000000000411408       0x3e parser.o
+                                         0x40 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000411446       0x52 main.o
+ *fill*         0x0000000000411498        0x8 00
+ .rodata        0x00000000004114a0       0xa8 ../../lib/libbacnet.a(apdu.o)
+ *fill*         0x0000000000411548        0x8 00
+ .rodata        0x0000000000411550       0x18 ../../lib/libbacnet.a(bacdcode.o)
+ .rodata.str1.1
+                0x0000000000411568        0x6 ../../lib/libbacnet.a(version.o)
+ .rodata.str1.1
+                0x000000000041156e      0x538 ../../lib/libbacnet.a(xoapweather.o)
+                                        0x555 (size before relaxing)
+ *fill*         0x0000000000411aa6        0x2 00
+ .rodata.cst4   0x0000000000411aa8        0x4 ../../lib/libbacnet.a(xoapweather.o)
+ *fill*         0x0000000000411aac        0x4 00
+ .rodata        0x0000000000411ab0       0x60 ../../lib/libbacnet.a(bvlc.o)
+ .rodata.str1.1
+                0x0000000000411b10       0xb6 ../../lib/libbacnet.a(dlenv.o)
+ .rodata.str1.1
+                0x0000000000411bc6        0x6 ../../lib/libbacnet.a(h_rd.o)
+ *fill*         0x0000000000411bcc        0x4 00
+ .rodata        0x0000000000411bd0        0x8 ../../lib/libbacnet.a(h_rd.o)
+ .rodata.str1.1
+                0x0000000000411bd8       0x1c ../../lib/libbacnet.a(device.o)
+ *fill*         0x0000000000411bf4        0xc 00
+ .rodata        0x0000000000411c00       0x98 ../../lib/libbacnet.a(device.o)
+ .rodata.str1.1
+                0x0000000000411c98      0x3be ../../lib/libbacnet.a(ai.o)
+ *fill*         0x0000000000412056        0xa 00
+ .rodata        0x0000000000412060       0x40 ../../lib/libbacnet.a(ai.o)
+ .rodata.cst4   0x00000000004120a0        0x4 ../../lib/libbacnet.a(ai.o)
+ .rodata.str1.1
+                0x00000000004120a4       0x10 ../../lib/libbacnet.a(bi.o)
+ *fill*         0x00000000004120b4        0xc 00
+ .rodata        0x00000000004120c0       0x34 ../../lib/libbacnet.a(bi.o)
+ .rodata.str1.1
+                0x00000000004120f4       0x3d ../../lib/libbacnet.a(lc.o)
+ *fill*         0x0000000000412131        0xf 00
+ .rodata        0x0000000000412140       0x80 ../../lib/libbacnet.a(lc.o)
+ .rodata.cst4   0x00000000004121c0        0x4 ../../lib/libbacnet.a(lc.o)
+ .rodata.str1.1
+                0x00000000004121c4       0x38 ../../lib/libbacnet.a(bacfile.o)
+ *fill*         0x00000000004121fc        0x4 00
+ .rodata        0x0000000000412200       0x74 ../../lib/libbacnet.a(bacfile.o)
+ *fill*         0x0000000000412274        0xc 00
+ .rodata        0x0000000000412280      0x1e4 ../../lib/libbacnet.a(bacapp.o)
+ *fill*         0x0000000000412464        0xc 00
+ .rodata        0x0000000000412470       0x34 ../../lib/libbacnet.a(datetime.o)
+ .rodata.str1.1
+                0x00000000004124a4       0x30 ../../lib/libbacnet.a(address.o)
+                                         0x32 (size before relaxing)
+ *fill*         0x00000000004124d4        0x4 00
+ .rodata        0x00000000004124d8        0x8 ../../lib/libbacnet.a(address.o)
+ .rodata.str1.1
+                0x00000000004124e0       0x56 ../../lib/libbacnet.a(bip-init.o)
+ .rodata.str1.1
+                0x0000000000412536       0x11 ../../lib/libbacnet.a(ao.o)
+ *fill*         0x0000000000412547        0x9 00
+ .rodata        0x0000000000412550       0x3c ../../lib/libbacnet.a(ao.o)
+ .rodata.cst4   0x000000000041258c        0x4 ../../lib/libbacnet.a(ao.o)
+                                          0x8 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000412590      0xed4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000412590      0xed4 weather.o
+
+.eh_frame       0x0000000000413468     0x3ba4
+ *(.eh_frame)
+ .eh_frame      0x0000000000413468       0x50 weather.o
+ .eh_frame      0x00000000004134b8       0xa8 parser.o
+                                         0xe0 (size before relaxing)
+ .eh_frame      0x0000000000413560       0x80 main.o
+                                         0x90 (size before relaxing)
+ .eh_frame      0x00000000004135e0       0x40 //usr/lib/libc_nonshared.a(elf-init.oS)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000413620       0x18 //usr/lib/libc_nonshared.a(atexit.oS)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000413638      0x1a0 ../../lib/libbacnet.a(apdu.o)
+                                        0x180 (size before relaxing)
+ .eh_frame      0x00000000004137d8      0x970 ../../lib/libbacnet.a(bacdcode.o)
+                                        0x8c0 (size before relaxing)
+ .eh_frame      0x0000000000414148      0x150 ../../lib/libbacnet.a(bacint.o)
+                                        0x130 (size before relaxing)
+ .eh_frame      0x0000000000414298       0xd8 ../../lib/libbacnet.a(bacreal.o)
+ .eh_frame      0x0000000000414370      0x2e8 ../../lib/libbacnet.a(bacstr.o)
+                                        0x288 (size before relaxing)
+ .eh_frame      0x0000000000414658      0x118 ../../lib/libbacnet.a(dcc.o)
+ .eh_frame      0x0000000000414770      0x110 ../../lib/libbacnet.a(tsm.o)
+ .eh_frame      0x0000000000414880       0x38 ../../lib/libbacnet.a(bacaddr.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x00000000004148b8      0x210 ../../lib/libbacnet.a(xoapweather.o)
+                                        0x208 (size before relaxing)
+ .eh_frame      0x0000000000414ac8      0x2d8 ../../lib/libbacnet.a(bvlc.o)
+                                        0x2c8 (size before relaxing)
+ .eh_frame      0x0000000000414da0      0x180 ../../lib/libbacnet.a(bip.o)
+                                        0x168 (size before relaxing)
+ .eh_frame      0x0000000000414f20       0x20 ../../lib/libbacnet.a(dlenv.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000414f40       0x30 ../../lib/libbacnet.a(noserv.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000000414f70       0x28 ../../lib/libbacnet.a(h_npdu.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000414f98       0x18 ../../lib/libbacnet.a(h_whois.o)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000414fb0       0x88 ../../lib/libbacnet.a(h_rp.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000415038       0x88 ../../lib/libbacnet.a(h_rpm.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x00000000004150c0       0x50 ../../lib/libbacnet.a(h_wp.o)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000415110       0x38 ../../lib/libbacnet.a(h_arf.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000415148       0x38 ../../lib/libbacnet.a(h_awf.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x0000000000415180       0x38 ../../lib/libbacnet.a(h_rd.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x00000000004151b8       0x50 ../../lib/libbacnet.a(h_dcc.o)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000415208       0x30 ../../lib/libbacnet.a(h_ts.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000415238       0x28 ../../lib/libbacnet.a(h_whohas.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000415260      0x100 ../../lib/libbacnet.a(h_cov.o)
+                                        0x108 (size before relaxing)
+ .eh_frame      0x0000000000415360       0x18 ../../lib/libbacnet.a(h_ucov.o)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000415378       0x38 ../../lib/libbacnet.a(s_ihave.o)
+                                         0x50 (size before relaxing)
+ .eh_frame      0x00000000004153b0       0x50 ../../lib/libbacnet.a(s_iam.o)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000415400      0x390 ../../lib/libbacnet.a(device.o)
+                                        0x348 (size before relaxing)
+ .eh_frame      0x0000000000415790       0xe0 ../../lib/libbacnet.a(ai.o)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x0000000000415870      0x150 ../../lib/libbacnet.a(bi.o)
+                                        0x140 (size before relaxing)
+ .eh_frame      0x00000000004159c0      0x1c8 ../../lib/libbacnet.a(lc.o)
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x0000000000415b88      0x188 ../../lib/libbacnet.a(bacfile.o)
+                                        0x178 (size before relaxing)
+ .eh_frame      0x0000000000415d10       0x98 ../../lib/libbacnet.a(npdu.o)
+                                         0xa8 (size before relaxing)
+ .eh_frame      0x0000000000415da8      0x178 ../../lib/libbacnet.a(bacapp.o)
+ .eh_frame      0x0000000000415f20      0x2a0 ../../lib/libbacnet.a(datetime.o)
+                                        0x270 (size before relaxing)
+ .eh_frame      0x00000000004161c0       0xf8 ../../lib/libbacnet.a(arf.o)
+ .eh_frame      0x00000000004162b8       0xd8 ../../lib/libbacnet.a(awf.o)
+                                         0xe0 (size before relaxing)
+ .eh_frame      0x0000000000416390      0x160 ../../lib/libbacnet.a(cov.o)
+ .eh_frame      0x00000000004164f0       0x68 ../../lib/libbacnet.a(iam.o)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000000416558       0x78 ../../lib/libbacnet.a(ihave.o)
+                                         0x88 (size before relaxing)
+ .eh_frame      0x00000000004165d0       0x68 ../../lib/libbacnet.a(rd.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000416638      0x110 ../../lib/libbacnet.a(rp.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x0000000000416748      0x278 ../../lib/libbacnet.a(rpm.o)
+                                        0x270 (size before relaxing)
+ .eh_frame      0x00000000004169c0       0x90 ../../lib/libbacnet.a(timesync.o)
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x0000000000416a50       0x58 ../../lib/libbacnet.a(whohas.o)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000416aa8       0x58 ../../lib/libbacnet.a(whois.o)
+                                         0x68 (size before relaxing)
+ .eh_frame      0x0000000000416b00       0x68 ../../lib/libbacnet.a(wp.o)
+                                         0x80 (size before relaxing)
+ .eh_frame      0x0000000000416b68       0x30 ../../lib/libbacnet.a(abort.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000416b98       0x30 ../../lib/libbacnet.a(reject.o)
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000000416bc8       0x68 ../../lib/libbacnet.a(bacerror.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000416c30       0x18 ../../lib/libbacnet.a(memcopy.o)
+                                         0x30 (size before relaxing)
+ .eh_frame      0x0000000000416c48      0x1d8 ../../lib/libbacnet.a(address.o)
+                                        0x1c0 (size before relaxing)
+ .eh_frame      0x0000000000416e20       0x80 ../../lib/libbacnet.a(bip-init.o)
+                                         0x90 (size before relaxing)
+ .eh_frame      0x0000000000416ea0      0x168 ../../lib/libbacnet.a(ao.o)
+                                        0x158 (size before relaxing)
+ .eh_frame      0x0000000000417008        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x000000000041700c                . = (ALIGN (0x200000) - ((0x200000 - .) & 0x1fffff))
+                0x0000000000617dcc                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000617dcc        0x0
+                0x0000000000617dcc                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000000617dcc                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000000617dcc        0x0
+                0x0000000000617dcc                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x0000000000617dcc                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000000617dcc        0x0
+                0x0000000000617dcc                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x0000000000617dcc                PROVIDE (__fini_array_end, .)
+
+.ctors          0x0000000000617dd0       0x10
+ *crtbegin.o(.ctors)
+ .ctors         0x0000000000617dd0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x0000000000617dd8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+
+.dtors          0x0000000000617de0       0x10
+ *crtbegin.o(.dtors)
+ .dtors         0x0000000000617de0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x0000000000617de8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+                0x0000000000617de8                __DTOR_END__
+
+.jcr            0x0000000000617df0        0x8
+ *(.jcr)
+ .jcr           0x0000000000617df0        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+ .jcr           0x0000000000617df0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000617df8      0x1e0
+ *(.dynamic)
+ .dynamic       0x0000000000617df8      0x1e0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+                0x0000000000617df8                _DYNAMIC
+
+.got            0x0000000000617fd8       0x10
+ *(.got)
+ .got           0x0000000000617fd8       0x10 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+ *(.igot)
+                0x0000000000617fe8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x0000000000617fe8      0x1e8
+ *(.got.plt)
+ .got.plt       0x0000000000617fe8      0x1e8 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+                0x0000000000617fe8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+
+.data           0x00000000006181d0       0xb0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000006181d0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+                0x00000000006181d0                __dso_handle
+ .data          0x00000000006181d8        0x4 ../../lib/libbacnet.a(apdu.o)
+ .data          0x00000000006181dc        0x1 ../../lib/libbacnet.a(tsm.o)
+ *fill*         0x00000000006181dd        0x3 00
+ .data          0x00000000006181e0        0x8 ../../lib/libbacnet.a(version.o)
+                0x00000000006181e0                BACnet_Version
+ .data          0x00000000006181e8        0x8 ../../lib/libbacnet.a(bip.o)
+ .data          0x00000000006181f0       0x20 ../../lib/libbacnet.a(h_dcc.o)
+ .data          0x0000000000618210       0x70 ../../lib/libbacnet.a(device.o)
+
+.data1
+ *(.data1)
+                0x0000000000618280                _edata = .
+                0x0000000000618280                PROVIDE (edata, .)
+                0x0000000000618280                __bss_start = .
+
+.bss            0x0000000000618280    0x74ff0
+ *(.dynbss)
+ .dynbss        0x0000000000618280       0x28 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/../../../../lib/crt1.o
+                0x0000000000618280                stderr@@GLIBC_2.2.5
+                0x00000000006182a0                xmlFree@@LIBXML2_2.4.30
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000006182a8       0x10 /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+ *fill*         0x00000000006182b8        0x8 00
+ .bss.Rx_Buf    0x00000000006182c0      0x5e2 main.o
+ *fill*         0x00000000006188a2        0xe 00
+ .bss           0x00000000006188b0      0x340 ../../lib/libbacnet.a(apdu.o)
+ .bss           0x0000000000618bf0        0x8 ../../lib/libbacnet.a(dcc.o)
+ *fill*         0x0000000000618bf8        0x8 00
+ .bss           0x0000000000618c00    0x60dec ../../lib/libbacnet.a(tsm.o)
+ *fill*         0x00000000006799ec        0x4 00
+ .bss           0x00000000006799f0     0x1420 ../../lib/libbacnet.a(bvlc.o)
+                0x00000000006799f0                BVLC_Result_Code
+ .bss           0x000000000067ae10        0x8 ../../lib/libbacnet.a(bip.o)
+ *fill*         0x000000000067ae18        0x8 00
+ .bss           0x000000000067ae20      0x5de ../../lib/libbacnet.a(txbuf.o)
+                0x000000000067ae20                Handler_Transmit_Buffer
+ *fill*         0x000000000067b3fe        0x2 00
+ .bss           0x000000000067b400     0x45c8 ../../lib/libbacnet.a(h_rp.o)
+ *fill*         0x000000000067f9c8        0x8 00
+ .bss           0x000000000067f9d0     0x25c8 ../../lib/libbacnet.a(h_rpm.o)
+ *fill*         0x0000000000681f98        0x8 00
+ .bss           0x0000000000681fa0     0x1ff8 ../../lib/libbacnet.a(h_wp.o)
+ *fill*         0x0000000000683f98        0x8 00
+ .bss           0x0000000000683fa0      0x5c8 ../../lib/libbacnet.a(h_rd.o)
+ *fill*         0x0000000000684568        0x8 00
+ .bss           0x0000000000684570      0x580 ../../lib/libbacnet.a(h_cov.o)
+ .bss           0x0000000000684af0     0x6008 ../../lib/libbacnet.a(device.o)
+ *fill*         0x000000000068aaf8        0x8 00
+ .bss           0x000000000068ab00       0xd4 ../../lib/libbacnet.a(ai.o)
+ *fill*         0x000000000068abd4        0xc 00
+ .bss           0x000000000068abe0       0x4e ../../lib/libbacnet.a(bi.o)
+ *fill*         0x000000000068ac2e        0x2 00
+ .bss           0x000000000068ac30      0x1b0 ../../lib/libbacnet.a(lc.o)
+ .bss           0x000000000068ade0       0x10 ../../lib/libbacnet.a(bacapp.o)
+ .bss           0x000000000068adf0     0x23dc ../../lib/libbacnet.a(address.o)
+ .bss           0x000000000068d1cc        0x1 ../../lib/libbacnet.a(bip-init.o)
+                0x000000000068d1cc                BIP_Debug
+ *fill*         0x000000000068d1cd        0x3 00
+ .bss           0x000000000068d1d0       0x74 ../../lib/libbacnet.a(ao.o)
+ *(COMMON)
+ *fill*         0x000000000068d244        0x4 00
+ COMMON         0x000000000068d248       0x18 ../../lib/libbacnet.a(xoapweather.o)
+                0x000000000068d248                licenseKey
+                0x000000000068d250                curlHandle
+                0x000000000068d258                partnerID
+ COMMON         0x000000000068d260        0xa ../../lib/libbacnet.a(device.o)
+                0x000000000068d260                Local_Date
+                0x000000000068d266                Local_Time
+                0x000000000068d270                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000068d26a        0x6 00
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000068d270                . = ALIGN (0x8)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000a8d270        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000a8d270                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000a8d270                . = ALIGN (0x8)
+                0x0000000000a8d270                _end = .
+                0x0000000000a8d270                PROVIDE (end, .)
+                0x0000000000a8d270                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtbegin.o
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c weather.o
+ .comment       0x0000000000000000       0x2c parser.o
+ .comment       0x0000000000000000       0x2c main.o
+ .comment       0x0000000000000000       0x2c //usr/lib/libc_nonshared.a(elf-init.oS)
+ .comment       0x0000000000000000       0x2c //usr/lib/libc_nonshared.a(atexit.oS)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(apdu.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bacdcode.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bacint.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bacreal.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bacstr.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(dcc.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(tsm.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bacaddr.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(version.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(xoapweather.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bvlc.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bip.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(dlenv.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(txbuf.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(noserv.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_npdu.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_whois.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_rp.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_rpm.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_wp.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_arf.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_awf.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_rd.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_dcc.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_ts.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_whohas.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_cov.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(h_ucov.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(s_ihave.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(s_iam.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(device.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(ai.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bi.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(lc.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bacfile.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(npdu.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bacapp.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(datetime.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(arf.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(awf.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(cov.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(iam.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(ihave.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(rd.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(rp.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(rpm.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(timesync.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(whohas.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(whois.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(wp.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(abort.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(reject.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bacerror.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(memcopy.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(address.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(bip-init.o)
+ .comment       0x0000000000000000       0x2c ../../lib/libbacnet.a(ao.o)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/x86_64-linux-gnu/4.4.5/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(bacweather elf64-x86-64)

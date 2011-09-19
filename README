@@ -1,0 +1,56 @@
+Bacnet Weather
+A simple application that allows all your BACnet devices access to forecasted and current
+condition weather.
+
+About this program
+------------------
+The program uses Steve Karg's BACnet implementation for communication, and uses Michael John's
+libxoapweather library to access The Weather Channel's SOAP API. See the readme.txt and
+README.XOAPweather for more about the respected code used here.
+
+INSTALLATION
+------------
+The only dependencies in are the curl-dev package and the libxml2-dev package. These are
+available for Windows as well as Linux, although I haven't attempted to build using Windows yet,
+but there's no reason why this shouldn't work.
+
+You'll need a LKEY and a PID from the weather channel, which they will e-mail you after you sign
+up to use their API.
+
+It should be noted that any machine that is already running a bacnet application (such as WebCTRL
+server) should not be used, do to port conflicts.
+
+You should just need to untar the package, run make and then add your PID and LKEY to the 
+weather.conf file in the doc directory. Set the LOCID to your zipcode, and you can use
+the FORECASTED_DAYS setting to set how many days you want of forecasted weather.
+
+After setting all this up, just run the bacserv app in the bin directory, and away it should
+go.
+
+POINTS LIST
+-----------
+Current Conditions
+0 Current Conditions Temp
+1 Current Conditions Feels Like Temp
+2 Current Conditions Humidity
+3 Current Conditions Visibility
+4 Current Conditions Dew Point
+5 Current Conditions Barometric Pressure
+6 Current Conditions UV Index
+7 Current Conditions Wind Speed
+8 Current Conditions Wind Gust
+9 Current Conditions Wind Direction (Degrees from North
+Last Time Weather was Updated
+10 Hour
+11 Minute
+12 Month
+13 Day
+14 Year
+Forecasted Weather (Starts with Current Day)
+15 High Temperature
+16 Low Temperature
+17 Chance of Percipitation during the day
+18 Chance of Percipitation during the night
+19 Wind Speed during the day
+20 Wind Speed during the night
+This pattern continues for the next four days
