@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../demo/object/ai.c" open="0" top="0" tabpos="3">
+		<Cursor position="2639" topLine="69" />
+	</File>
+	<File name="../include/ai.h" open="0" top="0" tabpos="1">
+		<Cursor position="1508" topLine="27" />
+	</File>
+	<File name="../include/bacdef.h" open="0" top="0" tabpos="6">
+		<Cursor position="3332" topLine="69" />
+	</File>
+	<File name="../include/bacenum.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="1387" />
+	</File>
+	<File name="../include/config.h" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="72" />
+	</File>
+	<File name="../include/device.h" open="0" top="0" tabpos="8">
+		<Cursor position="0" topLine="108" />
+	</File>
+	<File name="../include/tsm.h" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="107" />
+	</File>
+	<File name="../ports/win32/net.h" open="1" top="1" tabpos="2">
+		<Cursor position="1348" topLine="22" />
+	</File>
+</CodeBlocks_layout_file>
